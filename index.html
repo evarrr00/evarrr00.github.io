@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Єва</title>
 </head>
 <body>
@@ -193,6 +194,7 @@
 
     <div>
         <a href="pages/article.html">Стаття</a>
+        <a href="newYear.html" target="_blank" rel="noopener noreferrer">Відлік до нового року</a>
     </div>
 
     <div>
@@ -245,6 +247,88 @@
             <label for="winter">Осінь</label><br>
 
         </form>
+    </div>
+    <br/>
+    <div>
+        <form style="border: 5px solid #ff8229; padding: 10px 20px;">
+            <label for="FLName">П.І.Б.:</label>
+            <input type="text" id="FLName"><br/>
+
+            <label for="Login">Логін:</label>
+            <input type="text" id="Login"><br/>
+
+            <label for="pass">Пароль:</label>
+            <input type="password" id="pass"><br>
+
+            <label for="reppass">Повторіть пароль:</label>
+            <input type="password" id="reppass"> <br>
+
+            Стать:
+            <input type="radio" name="sex" id="male">
+            <label for="male">Чоловік</label>
+            <input type="radio" name="sex" id="female">
+            <label for="female">Жінка</label> 
+            <br>
+            <input type="submit" value="Реєстрація">
+        </form>
+    </div>
+    <br>
+    <div class="test">
+        <form style="border: 5px solid #2cb816; padding: 10px 20px;" >
+            <label for="email">Введіть Email:</label>
+            <input type="email" name="email" id="email" value="Не email"> <br>
+
+            <label for="url">Введіть url:</label>
+            <input type="url" name="url" id="url" value="Не url"> <br>
+
+            <label for="telephone">Введіть телефон: +380</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="XX-XXX-XX-XX" 
+             pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"> <br>
+            
+            <label for="number">Введіть число (від 1 до 15):</label>
+            <input type="number" name="number" id="number" min="1" max="15"> <br>
+
+            <label for="range">Введіть число (від -5 до 5):</label>
+            <input type="range" name="range" id="range" min="-5" max="5"> <br>
+
+            <label for="search">Пошук:</label>
+            <input type="search" name="search" id="search" value="Пошук по сайту"> <br>
+
+            <label for="color">Оберіть свій улюбленний клір:</label>
+            <input type="color" name="color" id="color"> <br>
+
+            <input type="submit" value="Надіслати"> <br>
+        </form>
+    </div>
+
+    <div>
+        <form style="border: 5px solid #262726; padding: 10px 20px;">
+            <label for="FLName">Ім'я:</label>
+            <input type="text" id="FLName"><br/>
+            
+            
+        </form>
+    </div>
+
+    <div class="task1">
+        <div>
+            <p>Параграф</p>
+            <p>Параграф</p>
+            <p>Параграф</p>
+        </div>
+        <div>
+            <p>Параграф</p>
+            <div>
+                <p>Параграф</p>
+            </div>
+            <p>Параграф</p>
+        </div>
+    </div>
+
+    <div class="task2">
+        <p>Параграф</p>
+        <p>Параграф</p>
+        <p>Параграф</p>
     </div>
 
    

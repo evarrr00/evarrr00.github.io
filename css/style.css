@@ -1,0 +1,20 @@
+.test {
+    color: darkslategray;
+}
+
+
+div:only-of-type {
+    background-color: blue;
+}
+
+.task1:last-child {
+    color: blue;
+}
+
+.task1 p:first-child {
+    color: red;
+}
+
+.task1 p:only-child {
+    color: blue;
+}
